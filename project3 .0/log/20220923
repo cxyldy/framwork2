@@ -1,0 +1,7 @@
+[2022-09-23 21:17:50,449][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-23 21:17:50,570][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-23 21:17:50,572][test_api.py 46][INFO]:测试场景为：开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea，
+请求体为{"randomData": "1234567890", "timestamp": "20211223201746", "characterSet": "UTF-8", "signType": "PUB_SIGN", "version": "1.0.0", "appId": "A00003019", "hmac": "", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaName": "接口自动创建商圈1"}},
+请求头为：{'User-Agent': 'python-requests/2.28.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '293', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220923211749'}

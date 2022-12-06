@@ -1,0 +1,52 @@
+[2022-10-10 20:58:35,642][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-10-10 20:58:35,666][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-10 20:58:35,666][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-10-10 20:58:35,666][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-10 20:58:35,666][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-10-10 20:58:35,667][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-10 20:58:35,670][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-10 20:58:35,971][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-10-10 20:58:35,978][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20221010205832'}
+[2022-10-10 20:59:32,866][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-10-10 20:59:32,866][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-10 20:59:32,866][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-10-10 20:59:32,866][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-10 20:59:32,866][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-10-10 20:59:32,867][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-10 20:59:32,909][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-10 20:59:32,990][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-10-10 20:59:32,991][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20221010205929'}

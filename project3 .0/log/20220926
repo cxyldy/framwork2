@@ -1,0 +1,147 @@
+[2022-09-26 00:00:37,590][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-26 00:00:37,590][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-26 00:00:37,590][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-26 00:00:37,591][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-26 00:00:37,591][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-26 00:00:37,591][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-26 00:00:37,593][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-26 00:00:37,721][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-26 00:00:37,724][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220926000038'}
+[2022-09-26 00:00:44,802][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-26 00:00:44,803][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-26 00:00:44,805][backend.py 201][DEBUG]:Loading Windows
+[2022-09-26 00:00:44,820][backend.py 201][DEBUG]:Loading chainer
+[2022-09-26 00:00:44,820][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-26 00:00:44,821][backend.py 201][DEBUG]:Loading macOS
+[2022-09-26 00:00:45,872][send_mail.py 22][INFO]:发送成功
+[2022-09-26 00:05:58,416][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-26 00:05:58,416][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-26 00:05:58,416][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-26 00:05:58,416][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-26 00:05:58,416][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-26 00:05:58,416][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-26 00:05:58,440][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-26 00:05:58,554][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-26 00:05:58,557][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220926000559'}
+[2022-09-26 00:07:35,052][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-26 00:07:35,053][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-26 00:07:35,053][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-26 00:07:35,053][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-26 00:07:35,053][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-26 00:07:35,053][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-26 00:07:35,100][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-26 00:07:35,173][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-26 00:07:35,175][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220926000735'}
+[2022-09-26 00:07:42,041][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-26 00:07:42,043][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-26 00:07:42,044][backend.py 201][DEBUG]:Loading Windows
+[2022-09-26 00:07:42,055][backend.py 201][DEBUG]:Loading chainer
+[2022-09-26 00:07:42,055][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-26 00:07:42,056][backend.py 201][DEBUG]:Loading macOS
+[2022-09-26 00:07:43,753][send_mail.py 22][INFO]:发送成功
+[2022-09-26 00:12:32,355][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-26 00:12:32,356][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-26 00:12:32,356][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-26 00:12:32,356][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-26 00:12:32,356][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-26 00:12:32,356][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-26 00:12:32,381][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-26 00:12:32,473][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-26 00:12:32,475][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220926001233'}
+[2022-09-26 22:41:14,753][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-09-26 22:41:20,498][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-26 22:41:20,510][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-26 22:41:20,514][backend.py 201][DEBUG]:Loading Windows
+[2022-09-26 22:41:20,542][backend.py 201][DEBUG]:Loading chainer
+[2022-09-26 22:41:20,543][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-26 22:41:20,545][backend.py 201][DEBUG]:Loading macOS
+[2022-09-26 22:41:23,224][send_mail.py 22][INFO]:发送成功
+[2022-09-28 21:43:31,201][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-02 12:19:58,360][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-04 10:08:16,544][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-06 16:11:12,457][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-07 12:26:14,594][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-08 11:39:44,346][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-09 21:35:17,502][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-10 20:54:47,947][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-12 20:20:05,915][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-15 13:59:20,578][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-16 19:45:19,201][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-17 20:48:06,772][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-18 19:29:22,500][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-19 21:12:56,234][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-20 20:41:42,262][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-22 10:35:07,342][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-22 10:35:12,196][send_mail.py 22][INFO]:发送成功
+[2022-10-23 10:36:25,198][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-23 13:36:32,168][send_mail.py 22][INFO]:发送成功
+[2022-10-24 08:50:00,841][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-10-24 08:50:02,363][send_mail.py 22][INFO]:发送成功

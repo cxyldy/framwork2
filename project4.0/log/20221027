@@ -1,0 +1,369 @@
+[2022-10-27 20:13:23,311][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-10-27 20:13:23,311][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-10-27 20:13:24,115][test_api.py 46][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:13:24,115][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:13:24,115][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-10-27 20:13:24,115][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:13:24,116][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-10-27 20:13:24,116][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:13:24,162][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:13:24,681][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 502 149
+[2022-10-27 20:13:25,918][test_api.py 46][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:13:25,919][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:13:25,919][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/addSplitRcvMrch
+[2022-10-27 20:13:25,919][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:13:25,919][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "characterSet": "UTF-8",
+  "appId": "A00003019",
+  "signType": "PUB_SIGN",
+  "hmac": "W2LuROTV0HzzIg96zYObd81/pnmmpKjAFzlGeP3/aflznIWeYF/6TJoxl3s4lscSyh+3ciO0hVyfdxao1VzQqHItY8vL3ayYUFdpVX94xhVH8n/QExVPoDljGUw9vyOBX8vug8iXh56PboI5y/zg6aCqAuhkH4q85qlKQoRGI2E=",
+  "randomData": "sdsaid002",
+  "timestamp": "20220905170923",
+  "version": "1.0.0",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "809000011892870",
+    "rcvMercInfos": [
+      {
+        "payeeMerchantCode": "809000011892864",
+        "relationType": "STAFF",
+        "customRelation": "eiusmod"
+      }
+    ]
+  }
+}
+[2022-10-27 20:13:25,919][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:13:25,922][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:13:25,981][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/addSplitRcvMrch HTTP/1.1" 502 149
+[2022-10-27 20:13:26,015][test_api.py 46][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:13:26,015][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:13:26,015][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openSplitSndMrch
+[2022-10-27 20:13:26,015][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:13:26,015][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "RcQFf3FljNstEzKQFqlxG5hXwIr+eXUrhCAR8Dn35IwZlXv+J602gtIxXtqe3nt0n+uth6Tt+ony4aflbsQke5May8FEvrq33tmKeZVK3SUywynxMk9IrFMf79xYYkmMtJYMdNGf+TgYkMaM7MK+w2VwYaucMyugfmSTdewxKY4=",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "809000011892870",
+    "splitMode": "1",
+    "splitType": "1",
+    "splitWay": "1",
+    "splitPercent": "0.3"
+  }
+}
+[2022-10-27 20:13:26,016][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:13:26,017][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:13:26,070][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openSplitSndMrch HTTP/1.1" 502 149
+[2022-10-27 20:13:26,158][test_api.py 46][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:13:26,159][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:13:26,159][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/paySplitOnceOrder
+[2022-10-27 20:13:26,159][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:13:26,159][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890asd",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "appId": "A00003019",
+  "version": "1.0.0",
+  "hmac": "O2Jr+GTdfRKbg0CO5BTQ6u2Tdle/JJmPtAhdRoUmjT7MkmyspSREmGN508Py46h4SXIljl3HrcJ5TR+e7Oe72gFqsHrq1J0f3DffqfrQmDwpupfZ3/cRyWsLFRdAsmu7JzCf0+bC+yS6BR7n6xxpYnY7bxBJdOmJZsEJKq1jLPU=",
+  "reqData": {
+    "platformCode": "A00000901",
+    "platformType": "0",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "909000010745200",
+    "oriPayNo": "20220826909000010745200000300938",
+    "outOrderNo": "222222",
+    "rcvMercInfos": {
+      "payeeMerchantCode": "909161010743319",
+      "rcvAmount": 93,
+      "description": "\u6d4b\u8bd5\u5206\u8d26"
+    }
+  }
+}
+[2022-10-27 20:13:26,159][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:13:26,161][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:13:26,230][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/paySplitOnceOrder HTTP/1.1" 502 149
+[2022-10-27 20:17:30,767][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-10-27 20:17:30,767][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-10-27 20:17:31,113][test_api.py 47][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:17:31,113][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:17:31,113][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-10-27 20:17:31,113][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:17:31,114][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-10-27 20:17:31,114][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:17:31,153][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:17:31,227][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 502 149
+[2022-10-27 20:17:32,267][test_api.py 47][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:17:32,267][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:17:32,268][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/addSplitRcvMrch
+[2022-10-27 20:17:32,268][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:17:32,268][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "characterSet": "UTF-8",
+  "appId": "A00003019",
+  "signType": "PUB_SIGN",
+  "hmac": "W2LuROTV0HzzIg96zYObd81/pnmmpKjAFzlGeP3/aflznIWeYF/6TJoxl3s4lscSyh+3ciO0hVyfdxao1VzQqHItY8vL3ayYUFdpVX94xhVH8n/QExVPoDljGUw9vyOBX8vug8iXh56PboI5y/zg6aCqAuhkH4q85qlKQoRGI2E=",
+  "randomData": "sdsaid002",
+  "timestamp": "20220905170923",
+  "version": "1.0.0",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "809000011892870",
+    "rcvMercInfos": [
+      {
+        "payeeMerchantCode": "809000011892864",
+        "relationType": "STAFF",
+        "customRelation": "eiusmod"
+      }
+    ]
+  }
+}
+[2022-10-27 20:17:32,268][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:17:32,270][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:17:32,325][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/addSplitRcvMrch HTTP/1.1" 502 149
+[2022-10-27 20:17:32,359][test_api.py 47][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:17:32,359][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:17:32,359][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openSplitSndMrch
+[2022-10-27 20:17:32,360][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:17:32,360][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "RcQFf3FljNstEzKQFqlxG5hXwIr+eXUrhCAR8Dn35IwZlXv+J602gtIxXtqe3nt0n+uth6Tt+ony4aflbsQke5May8FEvrq33tmKeZVK3SUywynxMk9IrFMf79xYYkmMtJYMdNGf+TgYkMaM7MK+w2VwYaucMyugfmSTdewxKY4=",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "809000011892870",
+    "splitMode": "1",
+    "splitType": "1",
+    "splitWay": "1",
+    "splitPercent": "0.3"
+  }
+}
+[2022-10-27 20:17:32,360][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:17:32,361][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:17:32,417][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openSplitSndMrch HTTP/1.1" 502 149
+[2022-10-27 20:17:32,460][test_api.py 47][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:17:32,460][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:17:32,461][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/paySplitOnceOrder
+[2022-10-27 20:17:32,461][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:17:32,461][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890asd",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "appId": "A00003019",
+  "version": "1.0.0",
+  "hmac": "O2Jr+GTdfRKbg0CO5BTQ6u2Tdle/JJmPtAhdRoUmjT7MkmyspSREmGN508Py46h4SXIljl3HrcJ5TR+e7Oe72gFqsHrq1J0f3DffqfrQmDwpupfZ3/cRyWsLFRdAsmu7JzCf0+bC+yS6BR7n6xxpYnY7bxBJdOmJZsEJKq1jLPU=",
+  "reqData": {
+    "platformCode": "A00000901",
+    "platformType": "0",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "909000010745200",
+    "oriPayNo": "20220826909000010745200000300938",
+    "outOrderNo": "222222",
+    "rcvMercInfos": {
+      "payeeMerchantCode": "909161010743319",
+      "rcvAmount": 93,
+      "description": "\u6d4b\u8bd5\u5206\u8d26"
+    }
+  }
+}
+[2022-10-27 20:17:32,461][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:17:32,462][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:17:32,516][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/paySplitOnceOrder HTTP/1.1" 502 149
+[2022-10-27 20:20:30,067][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-10-27 20:20:30,068][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-10-27 20:20:30,409][test_api.py 47][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:20:30,410][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:20:30,410][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-10-27 20:20:30,410][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:20:30,410][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-10-27 20:20:30,411][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:20:30,451][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:20:30,513][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 502 149
+[2022-10-27 20:20:31,561][test_api.py 47][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:20:31,561][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:20:31,561][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/addSplitRcvMrch
+[2022-10-27 20:20:31,562][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:20:31,562][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "characterSet": "UTF-8",
+  "appId": "A00003019",
+  "signType": "PUB_SIGN",
+  "hmac": "W2LuROTV0HzzIg96zYObd81/pnmmpKjAFzlGeP3/aflznIWeYF/6TJoxl3s4lscSyh+3ciO0hVyfdxao1VzQqHItY8vL3ayYUFdpVX94xhVH8n/QExVPoDljGUw9vyOBX8vug8iXh56PboI5y/zg6aCqAuhkH4q85qlKQoRGI2E=",
+  "randomData": "sdsaid002",
+  "timestamp": "20220905170923",
+  "version": "1.0.0",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "809000011892870",
+    "rcvMercInfos": [
+      {
+        "payeeMerchantCode": "809000011892864",
+        "relationType": "STAFF",
+        "customRelation": "eiusmod"
+      }
+    ]
+  }
+}
+[2022-10-27 20:20:31,562][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:20:31,564][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:20:31,619][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/addSplitRcvMrch HTTP/1.1" 502 149
+[2022-10-27 20:20:31,654][test_api.py 47][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:20:31,654][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:20:31,654][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openSplitSndMrch
+[2022-10-27 20:20:31,655][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:20:31,655][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "RcQFf3FljNstEzKQFqlxG5hXwIr+eXUrhCAR8Dn35IwZlXv+J602gtIxXtqe3nt0n+uth6Tt+ony4aflbsQke5May8FEvrq33tmKeZVK3SUywynxMk9IrFMf79xYYkmMtJYMdNGf+TgYkMaM7MK+w2VwYaucMyugfmSTdewxKY4=",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "809000011892870",
+    "splitMode": "1",
+    "splitType": "1",
+    "splitWay": "1",
+    "splitPercent": "0.3"
+  }
+}
+[2022-10-27 20:20:31,655][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:20:31,656][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:20:31,711][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openSplitSndMrch HTTP/1.1" 502 149
+[2022-10-27 20:20:31,753][test_api.py 47][INFO]:用例数据拆包开始。。。。
+[2022-10-27 20:20:31,754][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-10-27 20:20:31,754][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/paySplitOnceOrder
+[2022-10-27 20:20:31,754][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-10-27 20:20:31,754][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890asd",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "appId": "A00003019",
+  "version": "1.0.0",
+  "hmac": "O2Jr+GTdfRKbg0CO5BTQ6u2Tdle/JJmPtAhdRoUmjT7MkmyspSREmGN508Py46h4SXIljl3HrcJ5TR+e7Oe72gFqsHrq1J0f3DffqfrQmDwpupfZ3/cRyWsLFRdAsmu7JzCf0+bC+yS6BR7n6xxpYnY7bxBJdOmJZsEJKq1jLPU=",
+  "reqData": {
+    "platformCode": "A00000901",
+    "platformType": "0",
+    "bizAreaId": "20220002",
+    "paymentMerchantCode": "909000010745200",
+    "oriPayNo": "20220826909000010745200000300938",
+    "outOrderNo": "222222",
+    "rcvMercInfos": {
+      "payeeMerchantCode": "909161010743319",
+      "rcvAmount": 93,
+      "description": "\u6d4b\u8bd5\u5206\u8d26"
+    }
+  }
+}
+[2022-10-27 20:20:31,754][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-10-27 20:20:31,755][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-10-27 20:20:31,807][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/paySplitOnceOrder HTTP/1.1" 502 149

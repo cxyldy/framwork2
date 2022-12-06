@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_api",
+    "children" : [ {
+      "name" : "开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)",
+      "uid" : "243025ad85a050f6",
+      "parentUid" : "3e870897fe9cfd16d0f885bb6886e508",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665406772517,
+        "stop" : 1665406772993,
+        "duration" : 476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "['开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)', '/split/openBizArea', ' {\\n    \"randomData\": \"1234567890\",\\n    \"timestamp\": \"20211223201746\",\\n    \"characterSet\": \"UTF-8\",\\n    \"signType\": \"PUB_SIGN\",\\n    \"version\": \"1.0.0\",\\n    \"appId\": \"A00003019\",\\n    \"hmac\": \"111\",\\n    \"reqData\": {\\n        \"platformType\": \"0\",\\n        \"platformCode\": \"A00000901\",\\n        \"bizAreaName\": \"接口自动创建商圈1\"\\n    }\\n}', \"{'Content-Type': 'application/json'}\\n\", 'post', 'json', '', '', '', '', 'sdsadasss', '严重', 'Y']" ]
+    }, {
+      "name" : "test_common[case1]",
+      "uid" : "8ecf00b51ab3ba73",
+      "parentUid" : "3e870897fe9cfd16d0f885bb6886e508",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1665406772997,
+        "stop" : 1665406772997,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "['创建分账收款方信息', '/split/addSplitRcvMrch', '{\\n    \"characterSet\": \"UTF-8\",\\n    \"appId\":\"A00003019\",\\n    \"signType\": \"PUB_SIGN\",\\n    \"hmac\": \"DX819DKAJSNDJA\",\\n    \"randomData\": \"sdsaid002\",\\n    \"timestamp\": \"20220905170923\",\\n    \"version\": \"1.0.0\",\\n    \"reqData\": {\\n  \"platformType\": \"0\",\\n  \"platformCode\": \"A00000901\",\\n  \"bizAreaId\": \"20220002\",\\n  \"paymentMerchantCode\": \"809000011892870\",\\n  \"rcvMercInfos\": [\\n    {\\n      \"payeeMerchantCode\": \"809000011892864\",\\n      \"relationType\": \"STAFF\",\\n      \"customRelation\": \"eiusmod\"\\n    }\\n  ]\\n}\\n}', \"{'Content-Type': 'application/json'}\\n\", 'post', 'json', '', '', '', '', 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIt1Ta/sDj7uo+QEoA8Ovj7bm4Drydy9GgPhjFz0N2eSTX4GanHUYz5kguCsVRc2yq5nESPpNPeIAbByNEK+u1MN4CJCJ8AHsFD8aax3rhZS0smWsxWhkxSMm6+9sxmnTMFwneFxlmaXyUzhK6DHyk5o4z62yu1B8ExAJjpR36fJAgMBAAECgYB50mmfsKQtI0e1arjrDmTwAeSQNOjsU6BDHacAmDFB31KkMTSQ5Qggu6p8Wu4lzi41NUGKzi//vyZCnTC70WNOdAemeeHSMSGwuRPWac9iHPqYNq/63Zr3VDzKcAqU9Bqfk2Bb9sJ4b6C7YsJhL3OovC0gKlKDpr699g/dAHEzEQJBAOejX54Zpi/uHGe+zPuK7uH/P8lZcgLeT35xQt2e7cMZIezMocMQH6fzC71ZDnc3hOsoVcOg501OS0hJa0gSCB0CQQCaIBOcpOdt3EjzSTfLIpq5TgobcWUQE+aedA2dlamsMOxzTb+Fv+qWRcq2wAKBfWzKCAAceZ++s9Mly+s7IAadAkEArvEcTfNhJ+HVYiUf+vo64EQ+kHsVOEVeFEjGD0rwluBsVsNViFStE9LjkuWnnzI3GMMlwtHK3v+6q6WHeK7loQJAMaxY5cl4FT5D/LUCWGPkvgha1ZFsYwwm7ba1lK5hqu9xpY/PREogTyJbPR8RL66+2zZM4uCIDaxjRvE79ShTOQJBAMo5CFw25ztjm0PtjaGlyhbA1JyPIM6TZgXRSGO8VPxVQQ641t8IDTC33Ev+UUSsW5OevVG20PZx2J3FNgtXlXk=', '', 'N']" ]
+    }, {
+      "name" : "test_common[case2]",
+      "uid" : "21608b5ca7c0ad56",
+      "parentUid" : "3e870897fe9cfd16d0f885bb6886e508",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1665406772999,
+        "stop" : 1665406772999,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "['开通分账出款方', '/split/openSplitSndMrch', '{\\n    \"randomData\": \"1234567890\",\\n    \"timestamp\": \"20211223201746\",\\n    \"characterSet\": \"UTF-8\",\\n    \"signType\": \"PUB_SIGN\",\\n    \"version\": \"1.0.0\",\\n    \"appId\": \"A00003019\",\\n    \"hmac\": \"etbGOyvj/DQz7Q7b+HDiGt8Dinyh/X649B+iIDrL7nVHcYomW8Cv3rbri249Nd2K+ghtW36KpBFsShlOmQ/3vs9RjeLPEjURVeLz4Q/AODui8QkjpeQ8b0rWYTK56O5gpNypzz2+KFyAfcxJMJRg/Fa4PsH1iXGYk6DBubKYO7Y=\",\\n    \"reqData\": {\\n        \"platformType\": \"0\",\\n        \"platformCode\": \"A00000901\",\\n        \"bizAreaId\": \"20220002\",\\n        \"paymentMerchantCode\": \"809000011892870\",\\n        \"splitMode\": \"1\",\\n        \"splitType\": \"1\",\\n        \"splitWay\": \"1\",\\n        \"splitPercent\": \"0.3\"\\n    }\\n}', \"{'Content-Type': 'application/json'}\\n\", 'post', 'json', '', '', '', '', 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIt1Ta/sDj7uo+QEoA8Ovj7bm4Drydy9GgPhjFz0N2eSTX4GanHUYz5kguCsVRc2yq5nESPpNPeIAbByNEK+u1MN4CJCJ8AHsFD8aax3rhZS0smWsxWhkxSMm6+9sxmnTMFwneFxlmaXyUzhK6DHyk5o4z62yu1B8ExAJjpR36fJAgMBAAECgYB50mmfsKQtI0e1arjrDmTwAeSQNOjsU6BDHacAmDFB31KkMTSQ5Qggu6p8Wu4lzi41NUGKzi//vyZCnTC70WNOdAemeeHSMSGwuRPWac9iHPqYNq/63Zr3VDzKcAqU9Bqfk2Bb9sJ4b6C7YsJhL3OovC0gKlKDpr699g/dAHEzEQJBAOejX54Zpi/uHGe+zPuK7uH/P8lZcgLeT35xQt2e7cMZIezMocMQH6fzC71ZDnc3hOsoVcOg501OS0hJa0gSCB0CQQCaIBOcpOdt3EjzSTfLIpq5TgobcWUQE+aedA2dlamsMOxzTb+Fv+qWRcq2wAKBfWzKCAAceZ++s9Mly+s7IAadAkEArvEcTfNhJ+HVYiUf+vo64EQ+kHsVOEVeFEjGD0rwluBsVsNViFStE9LjkuWnnzI3GMMlwtHK3v+6q6WHeK7loQJAMaxY5cl4FT5D/LUCWGPkvgha1ZFsYwwm7ba1lK5hqu9xpY/PREogTyJbPR8RL66+2zZM4uCIDaxjRvE79ShTOQJBAMo5CFw25ztjm0PtjaGlyhbA1JyPIM6TZgXRSGO8VPxVQQ641t8IDTC33Ev+UUSsW5OevVG20PZx2J3FNgtXlXk=', '', 'N']" ]
+    }, {
+      "name" : "test_common[case3]",
+      "uid" : "68ad16a5770d29f5",
+      "parentUid" : "3e870897fe9cfd16d0f885bb6886e508",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1665406773002,
+        "stop" : 1665406773002,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "['发起分账交易', '/split/paySplitOnceOrder', '{\\n    \"randomData\": \"1234567890asd\",\\n    \"timestamp\": \"20211223201746\",\\n    \"characterSet\": \"UTF-8\",\\n    \"signType\": \"PUB_SIGN\",\\n    \"appId\": \"A00003019\",\\n    \"version\": \"1.0.0\",\\n    \"hmac\": \"DKx8hQchXGGwSW\",\\n    \"reqData\": {\\n        \"platformCode\": \"A00000901\",\\n        \"platformType\": \"0\",\\n        \"bizAreaId\": \"20220002\",\\n        \"paymentMerchantCode\": \"909000010745200\",\\n        \"oriPayNo\": \"20220826909000010745200000300938\",\\n        \"outOrderNo\": \"222222\",\\n        \"rcvMercInfos\": {\\n            \"payeeMerchantCode\": \"909161010743319\",\\n            \"rcvAmount\": 93,\\n            \"description\": \"测试分账\"\\n        }\\n    }\\n}', \"{'Content-Type': 'application/json'}\\n\", 'post', 'json', '', '', '', '', 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIt1Ta/sDj7uo+QEoA8Ovj7bm4Drydy9GgPhjFz0N2eSTX4GanHUYz5kguCsVRc2yq5nESPpNPeIAbByNEK+u1MN4CJCJ8AHsFD8aax3rhZS0smWsxWhkxSMm6+9sxmnTMFwneFxlmaXyUzhK6DHyk5o4z62yu1B8ExAJjpR36fJAgMBAAECgYB50mmfsKQtI0e1arjrDmTwAeSQNOjsU6BDHacAmDFB31KkMTSQ5Qggu6p8Wu4lzi41NUGKzi//vyZCnTC70WNOdAemeeHSMSGwuRPWac9iHPqYNq/63Zr3VDzKcAqU9Bqfk2Bb9sJ4b6C7YsJhL3OovC0gKlKDpr699g/dAHEzEQJBAOejX54Zpi/uHGe+zPuK7uH/P8lZcgLeT35xQt2e7cMZIezMocMQH6fzC71ZDnc3hOsoVcOg501OS0hJa0gSCB0CQQCaIBOcpOdt3EjzSTfLIpq5TgobcWUQE+aedA2dlamsMOxzTb+Fv+qWRcq2wAKBfWzKCAAceZ++s9Mly+s7IAadAkEArvEcTfNhJ+HVYiUf+vo64EQ+kHsVOEVeFEjGD0rwluBsVsNViFStE9LjkuWnnzI3GMMlwtHK3v+6q6WHeK7loQJAMaxY5cl4FT5D/LUCWGPkvgha1ZFsYwwm7ba1lK5hqu9xpY/PREogTyJbPR8RL66+2zZM4uCIDaxjRvE79ShTOQJBAMo5CFw25ztjm0PtjaGlyhbA1JyPIM6TZgXRSGO8VPxVQQ641t8IDTC33Ev+UUSsW5OevVG20PZx2J3FNgtXlXk=', '', 'N']" ]
+    } ],
+    "uid" : "testcase.test_api"
+  } ]
+}

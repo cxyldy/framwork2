@@ -1,0 +1,82 @@
+{
+  "uid" : "243025ad85a050f6",
+  "name" : "开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)",
+  "fullName" : "testcase.test_api.TestCase#test_common",
+  "historyId" : "5b4dd8f12e399784daa9d658ae78ca1f",
+  "time" : {
+    "start" : 1665406772517,
+    "stop" : 1665406772993,
+    "duration" : 476
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b590fd77bf3824c5",
+      "name" : "log",
+      "source" : "b590fd77bf3824c5.txt",
+      "type" : "text/plain",
+      "size" : 1265
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "开放API测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JVUQA5N"
+  }, {
+    "name" : "thread",
+    "value" : "11808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)', '/split/openBizArea', ' {\\n    \"randomData\": \"1234567890\",\\n    \"timestamp\": \"20211223201746\",\\n    \"characterSet\": \"UTF-8\",\\n    \"signType\": \"PUB_SIGN\",\\n    \"version\": \"1.0.0\",\\n    \"appId\": \"A00003019\",\\n    \"hmac\": \"111\",\\n    \"reqData\": {\\n        \"platformType\": \"0\",\\n        \"platformCode\": \"A00000901\",\\n        \"bizAreaName\": \"接口自动创建商圈1\"\\n    }\\n}', \"{'Content-Type': 'application/json'}\\n\", 'post', 'json', '', '', '', '', 'sdsadasss', '严重', 'Y']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "243025ad85a050f6.json",
+  "parameterValues" : [ "['开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)', '/split/openBizArea', ' {\\n    \"randomData\": \"1234567890\",\\n    \"timestamp\": \"20211223201746\",\\n    \"characterSet\": \"UTF-8\",\\n    \"signType\": \"PUB_SIGN\",\\n    \"version\": \"1.0.0\",\\n    \"appId\": \"A00003019\",\\n    \"hmac\": \"111\",\\n    \"reqData\": {\\n        \"platformType\": \"0\",\\n        \"platformCode\": \"A00000901\",\\n        \"bizAreaName\": \"接口自动创建商圈1\"\\n    }\\n}', \"{'Content-Type': 'application/json'}\\n\", 'post', 'json', '', '', '', '', 'sdsadasss', '严重', 'Y']" ]
+}

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "336ee1b5358ea94afeb20fbc101ef50a",
+    "name" : "开放API测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "8ecf00b51ab3ba73",
+  "name" : "test_common[case1]",
+  "fullName" : "testcase.test_api.TestCase#test_common",
+  "historyId" : "e831a83ab751e06fbb1d531b4718129a",
+  "time" : {
+    "start" : 1665406772997,
+    "stop" : 1665406772997,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped",
+  "statusTrace" : "('C:\\\\Users\\\\24113\\\\ldproject\\\\project3 .0\\\\testcase\\\\test_api.py', 24, 'Skipped')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "开放API测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JVUQA5N"
+  }, {
+    "name" : "thread",
+    "value" : "11808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['创建分账收款方信息', '/split/addSplitRcvMrch', '{\\n    \"characterSet\": \"UTF-8\",\\n    \"appId\":\"A00003019\",\\n    \"signType\": \"PUB_SIGN\",\\n    \"hmac\": \"DX819DKAJSNDJA\",\\n    \"randomData\": \"sdsaid002\",\\n    \"timestamp\": \"20220905170923\",\\n    \"version\": \"1.0.0\",\\n    \"reqData\": {\\n  \"platformType\": \"0\",\\n  \"platformCode\": \"A00000901\",\\n  \"bizAreaId\": \"20220002\",\\n  \"paymentMerchantCode\": \"809000011892870\",\\n  \"rcvMercInfos\": [\\n    {\\n      \"payeeMerchantCode\": \"809000011892864\",\\n      \"relationType\": \"STAFF\",\\n      \"customRelation\": \"eiusmod\"\\n    }\\n  ]\\n}\\n}', \"{'Content-Type': 'application/json'}\\n\", 'post', 'json', '', '', '', '', 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIt1Ta/sDj7uo+QEoA8Ovj7bm4Drydy9GgPhjFz0N2eSTX4GanHUYz5kguCsVRc2yq5nESPpNPeIAbByNEK+u1MN4CJCJ8AHsFD8aax3rhZS0smWsxWhkxSMm6+9sxmnTMFwneFxlmaXyUzhK6DHyk5o4z62yu1B8ExAJjpR36fJAgMBAAECgYB50mmfsKQtI0e1arjrDmTwAeSQNOjsU6BDHacAmDFB31KkMTSQ5Qggu6p8Wu4lzi41NUGKzi//vyZCnTC70WNOdAemeeHSMSGwuRPWac9iHPqYNq/63Zr3VDzKcAqU9Bqfk2Bb9sJ4b6C7YsJhL3OovC0gKlKDpr699g/dAHEzEQJBAOejX54Zpi/uHGe+zPuK7uH/P8lZcgLeT35xQt2e7cMZIezMocMQH6fzC71ZDnc3hOsoVcOg501OS0hJa0gSCB0CQQCaIBOcpOdt3EjzSTfLIpq5TgobcWUQE+aedA2dlamsMOxzTb+Fv+qWRcq2wAKBfWzKCAAceZ++s9Mly+s7IAadAkEArvEcTfNhJ+HVYiUf+vo64EQ+kHsVOEVeFEjGD0rwluBsVsNViFStE9LjkuWnnzI3GMMlwtHK3v+6q6WHeK7loQJAMaxY5cl4FT5D/LUCWGPkvgha1ZFsYwwm7ba1lK5hqu9xpY/PREogTyJbPR8RL66+2zZM4uCIDaxjRvE79ShTOQJBAMo5CFw25ztjm0PtjaGlyhbA1JyPIM6TZgXRSGO8VPxVQQ641t8IDTC33Ev+UUSsW5OevVG20PZx2J3FNgtXlXk=', '', 'N']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ecf00b51ab3ba73.json",
+  "parameterValues" : [ "['创建分账收款方信息', '/split/addSplitRcvMrch', '{\\n    \"characterSet\": \"UTF-8\",\\n    \"appId\":\"A00003019\",\\n    \"signType\": \"PUB_SIGN\",\\n    \"hmac\": \"DX819DKAJSNDJA\",\\n    \"randomData\": \"sdsaid002\",\\n    \"timestamp\": \"20220905170923\",\\n    \"version\": \"1.0.0\",\\n    \"reqData\": {\\n  \"platformType\": \"0\",\\n  \"platformCode\": \"A00000901\",\\n  \"bizAreaId\": \"20220002\",\\n  \"paymentMerchantCode\": \"809000011892870\",\\n  \"rcvMercInfos\": [\\n    {\\n      \"payeeMerchantCode\": \"809000011892864\",\\n      \"relationType\": \"STAFF\",\\n      \"customRelation\": \"eiusmod\"\\n    }\\n  ]\\n}\\n}', \"{'Content-Type': 'application/json'}\\n\", 'post', 'json', '', '', '', '', 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAIt1Ta/sDj7uo+QEoA8Ovj7bm4Drydy9GgPhjFz0N2eSTX4GanHUYz5kguCsVRc2yq5nESPpNPeIAbByNEK+u1MN4CJCJ8AHsFD8aax3rhZS0smWsxWhkxSMm6+9sxmnTMFwneFxlmaXyUzhK6DHyk5o4z62yu1B8ExAJjpR36fJAgMBAAECgYB50mmfsKQtI0e1arjrDmTwAeSQNOjsU6BDHacAmDFB31KkMTSQ5Qggu6p8Wu4lzi41NUGKzi//vyZCnTC70WNOdAemeeHSMSGwuRPWac9iHPqYNq/63Zr3VDzKcAqU9Bqfk2Bb9sJ4b6C7YsJhL3OovC0gKlKDpr699g/dAHEzEQJBAOejX54Zpi/uHGe+zPuK7uH/P8lZcgLeT35xQt2e7cMZIezMocMQH6fzC71ZDnc3hOsoVcOg501OS0hJa0gSCB0CQQCaIBOcpOdt3EjzSTfLIpq5TgobcWUQE+aedA2dlamsMOxzTb+Fv+qWRcq2wAKBfWzKCAAceZ++s9Mly+s7IAadAkEArvEcTfNhJ+HVYiUf+vo64EQ+kHsVOEVeFEjGD0rwluBsVsNViFStE9LjkuWnnzI3GMMlwtHK3v+6q6WHeK7loQJAMaxY5cl4FT5D/LUCWGPkvgha1ZFsYwwm7ba1lK5hqu9xpY/PREogTyJbPR8RL66+2zZM4uCIDaxjRvE79ShTOQJBAMo5CFw25ztjm0PtjaGlyhbA1JyPIM6TZgXRSGO8VPxVQQ641t8IDTC33Ev+UUSsW5OevVG20PZx2J3FNgtXlXk=', '', 'N']" ]
+}

@@ -1,0 +1,41 @@
+[ {
+  "uid" : "21608b5ca7c0ad56",
+  "name" : "test_common[case2]",
+  "time" : {
+    "start" : 1665406772999,
+    "stop" : 1665406772999,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8ecf00b51ab3ba73",
+  "name" : "test_common[case1]",
+  "time" : {
+    "start" : 1665406772997,
+    "stop" : 1665406772997,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "243025ad85a050f6",
+  "name" : "开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)",
+  "time" : {
+    "start" : 1665406772517,
+    "stop" : 1665406772993,
+    "duration" : 476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68ad16a5770d29f5",
+  "name" : "test_common[case3]",
+  "time" : {
+    "start" : 1665406773002,
+    "stop" : 1665406773002,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

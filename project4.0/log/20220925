@@ -1,0 +1,472 @@
+[2022-09-25 14:57:47,442][send_mail.py 9][INFO]:开始登录邮箱
+[2022-09-25 14:57:47,448][send_mail.py 11][INFO]:登录邮箱成功
+[2022-09-25 14:57:47,610][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 14:57:47,611][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 14:57:47,611][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 14:57:47,621][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 14:57:47,621][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 14:57:47,622][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 14:58:37,237][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 14:58:37,238][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 14:58:37,239][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 14:58:37,249][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 14:58:37,249][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 14:58:37,250][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 15:21:00,677][__init__.py 660][DEBUG]:Running job Job(interval=1, unit=days, do=do_job, args=(), kwargs={})
+[2022-09-25 15:21:00,902][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 15:21:00,904][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 15:21:00,905][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 15:21:00,919][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 15:21:00,920][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 15:21:00,921][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 15:21:01,831][scedule_sendmail.py 23][INFO]:发送成功
+[2022-09-25 15:45:33,378][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 15:45:33,713][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 15:45:33,738][test_api.py 46][INFO]:测试场景为：开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea，
+请求体为{"randomData": "1234567890", "timestamp": "20211223201746", "characterSet": "UTF-8", "signType": "PUB_SIGN", "version": "1.0.0", "appId": "A00003019", "hmac": "", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaName": "接口自动创建商圈1"}},
+请求头为：{'User-Agent': 'python-requests/2.28.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '293', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925154533'}
+[2022-09-25 15:46:13,286][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 15:46:13,356][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 15:46:13,380][test_api.py 46][INFO]:测试场景为：开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea，
+请求体为{"randomData": "1234567890", "timestamp": "20211223201746", "characterSet": "UTF-8", "signType": "PUB_SIGN", "version": "1.0.0", "appId": "A00003019", "hmac": "", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaName": "接口自动创建商圈1"}},
+请求头为：{'User-Agent': 'python-requests/2.28.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '293', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925154613'}
+[2022-09-25 21:59:18,406][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 21:59:18,406][medium_api.py 25][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:04:01,059][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:04:01,059][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:04:01,060][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:04:01,060][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:04:01,060][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:04:01,060][core_apiquery.py 44][INFO]:接口请求参数
+"{'Content-Type': 'application/json'}\n"
+[2022-09-25 22:11:21,001][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:13:13,781][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:13:13,781][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:13:13,781][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:13:13,781][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:13:13,782][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:13:13,782][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:13:13,806][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:13:13,889][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:15:23,134][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:15:23,134][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:15:23,134][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:15:23,135][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:15:23,135][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:15:23,135][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:15:23,158][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:15:23,219][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:15:23,220][test_api.py 46][INFO]:请求结果：<Response [200]>
+[2022-09-25 22:17:50,183][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:17:50,183][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:17:50,183][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:17:50,183][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:17:50,183][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:17:50,183][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:17:50,207][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:17:50,271][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:17:50,273][test_api.py 48][INFO]:请求结果：%s
+[2022-09-25 22:20:18,877][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:20:18,877][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:20:18,878][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:20:18,878][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:20:18,878][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:20:18,878][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:20:18,902][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:20:18,973][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:20:18,974][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925222019'}
+[2022-09-25 22:32:13,045][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:32:13,045][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:32:13,045][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:32:13,045][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:32:13,045][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:32:13,045][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:32:13,048][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:32:13,148][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:32:13,149][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925223213'}
+[2022-09-25 22:33:42,670][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:33:42,671][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:33:42,671][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:33:42,671][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:33:42,671][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:33:42,671][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:33:42,695][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:33:42,767][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:33:42,768][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925223343'}
+[2022-09-25 22:33:47,526][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 22:33:47,529][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 22:33:47,530][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 22:33:47,551][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 22:33:47,551][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 22:33:47,552][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 22:33:47,985][send_mail.py 22][INFO]:发送成功
+[2022-09-25 22:35:06,363][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:35:06,364][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:35:06,364][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:35:06,364][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:35:06,364][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:35:06,364][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:35:06,391][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:35:06,454][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:35:06,455][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925223507'}
+[2022-09-25 22:35:11,145][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 22:35:11,145][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 22:35:11,146][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 22:35:11,153][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 22:35:11,154][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 22:35:11,154][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 22:35:11,768][send_mail.py 22][INFO]:发送成功
+[2022-09-25 22:38:42,281][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:38:42,282][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:38:42,282][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:38:42,282][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:38:42,282][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:38:42,283][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:38:42,307][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:38:42,369][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:38:42,370][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925223843'}
+[2022-09-25 22:38:47,068][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 22:38:47,069][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 22:38:47,069][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 22:38:47,075][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 22:38:47,076][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 22:38:47,076][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 22:39:49,472][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 22:39:49,472][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 22:39:49,472][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 22:39:49,472][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 22:39:49,472][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 22:39:49,472][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 22:39:49,475][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 22:39:49,538][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 22:39:49,549][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925223950'}
+[2022-09-25 22:39:54,251][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 22:39:54,253][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 22:39:54,253][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 22:39:54,259][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 22:39:54,259][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 22:39:54,260][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 22:39:54,594][send_mail.py 22][INFO]:发送成功
+[2022-09-25 23:18:59,312][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 23:18:59,313][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 23:18:59,313][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 23:18:59,313][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 23:18:59,313][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 23:18:59,313][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 23:18:59,315][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 23:18:59,429][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 23:18:59,430][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925231900'}
+[2022-09-25 23:19:07,515][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 23:19:07,517][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 23:19:07,518][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 23:19:07,529][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 23:19:07,530][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 23:19:07,533][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 23:19:08,629][send_mail.py 22][INFO]:发送成功
+[2022-09-25 23:32:57,114][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 23:32:57,114][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 23:32:57,114][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 23:32:57,114][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 23:32:57,115][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 23:32:57,115][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 23:32:57,138][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 23:32:57,236][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 23:32:57,238][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925233257'}
+[2022-09-25 23:33:05,106][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 23:33:05,108][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 23:33:05,110][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 23:33:05,123][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 23:33:05,123][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 23:33:05,125][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 23:33:06,145][send_mail.py 22][INFO]:发送成功
+[2022-09-25 23:42:44,782][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 23:42:44,782][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 23:42:44,782][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 23:42:44,782][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 23:42:44,782][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 23:42:44,782][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 23:42:44,800][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 23:42:44,907][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 23:42:44,910][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925234245'}
+[2022-09-25 23:42:52,827][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 23:42:52,828][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 23:42:52,829][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 23:42:52,844][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 23:42:52,845][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 23:42:52,845][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 23:42:53,963][send_mail.py 22][INFO]:发送成功
+[2022-09-25 23:55:41,252][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-09-25 23:55:41,252][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-25 23:55:41,252][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-25 23:55:41,252][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-25 23:55:41,252][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-25 23:55:41,252][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-09-25 23:55:41,278][connectionpool.py 959][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-25 23:55:41,392][connectionpool.py 437][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 200 117
+[2022-09-25 23:55:41,394][test_api.py 48][INFO]:请求结果：{'code': '001000', 'data': None, 'hmac': '', 'msg': '签名参数不能为空！', 'pager': None, 'timestamp': '20220925235541'}
+[2022-09-25 23:55:50,640][backend.py 201][DEBUG]:Loading KWallet
+[2022-09-25 23:55:50,642][backend.py 201][DEBUG]:Loading SecretService
+[2022-09-25 23:55:50,643][backend.py 201][DEBUG]:Loading Windows
+[2022-09-25 23:55:50,657][backend.py 201][DEBUG]:Loading chainer
+[2022-09-25 23:55:50,658][backend.py 201][DEBUG]:Loading libsecret
+[2022-09-25 23:55:50,659][backend.py 201][DEBUG]:Loading macOS
+[2022-09-25 23:55:52,469][send_mail.py 22][INFO]:发送成功
+[2022-09-28 21:50:03,726][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-09-28 21:50:03,816][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-09-28 21:50:03,816][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-09-28 21:50:03,853][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-09-28 21:50:03,855][core_apiquery.py 44][INFO]:接口请求参数
+"{'Content-Type': 'application/json'}\n"

@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Mon Oct 10 20:59:32 CST 2022","Mon Oct 10 20:59:32 CST 2022","0","testcase","test_api","TestCase","","","test_common[case2]",""
+"passed","Mon Oct 10 20:59:32 CST 2022","Mon Oct 10 20:59:32 CST 2022","476","testcase","test_api","TestCase","","","开通商圈-服务商/商户开通商圈，接入商户编号、商圈id形成对应关系(名称包含汉字、英文、数字、特殊字符)",""
+"skipped","Mon Oct 10 20:59:32 CST 2022","Mon Oct 10 20:59:32 CST 2022","0","testcase","test_api","TestCase","","","test_common[case1]",""
+"skipped","Mon Oct 10 20:59:33 CST 2022","Mon Oct 10 20:59:33 CST 2022","0","testcase","test_api","TestCase","","","test_common[case3]",""
