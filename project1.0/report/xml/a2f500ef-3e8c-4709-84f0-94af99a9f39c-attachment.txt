@@ -1,0 +1,7 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/addSplitRcvMrch HTTP/1.1" 200 111
+INFO     root:test_api.py:44 测试场景为：创建分账收款方信息，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/addSplitRcvMrch，
+请求体为{"characterSet": "UTF-8", "appId": "A00003019", "signType": "PUB_SIGN", "hmac": "W2LuROTV0HzzIg96zYObd81/pnmmpKjAFzlGeP3/aflznIWeYF/6TJoxl3s4lscSyh+3ciO0hVyfdxao1VzQqHItY8vL3ayYUFdpVX94xhVH8n/QExVPoDljGUw9vyOBX8vug8iXh56PboI5y/zg6aCqAuhkH4q85qlKQoRGI2E=", "randomData": "sdsaid002", "timestamp": "20220905170923", "version": "1.0.0", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaId": "20220002", "paymentMerchantCode": "809000011892870", "rcvMercInfos": [{"payeeMerchantCode": "809000011892864", "relationType": "STAFF", "customRelation": "eiusmod"}]}},
+请求头为：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '577', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '信息同步申请中', 'pager': None, 'timestamp': '20220921092300'}

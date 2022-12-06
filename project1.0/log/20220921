@@ -1,0 +1,35 @@
+[2022-09-21 09:15:38,785][connectionpool.py 1003][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-21 09:15:39,007][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openSplitSndMrch HTTP/1.1" 200 150
+[2022-09-21 09:15:39,053][test_api.py 44][INFO]:测试场景为：开通分账出款方，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openSplitSndMrch，
+请求体为{"randomData": "1234567890", "timestamp": "20211223201746", "characterSet": "UTF-8", "signType": "PUB_SIGN", "version": "1.0.0", "appId": "A00003019", "hmac": "RcQFf3FljNstEzKQFqlxG5hXwIr+eXUrhCAR8Dn35IwZlXv+J602gtIxXtqe3nt0n+uth6Tt+ony4aflbsQke5May8FEvrq33tmKeZVK3SUywynxMk9IrFMf79xYYkmMtJYMdNGf+TgYkMaM7MK+w2VwYaucMyugfmSTdewxKY4=", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaId": "20220002", "paymentMerchantCode": "809000011892870", "splitMode": "1", "splitType": "1", "splitWay": "1", "splitPercent": "0.3"}},
+请求头为：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '540', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '商户[809000011892870]开通分账中,不允许重复开通', 'pager': None, 'timestamp': '20220921091538'}
+[2022-09-21 09:16:26,036][connectionpool.py 1003][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-21 09:16:26,175][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/addSplitRcvMrch HTTP/1.1" 200 150
+[2022-09-21 09:16:26,177][test_api.py 44][INFO]:测试场景为：创建分账收款方信息，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/addSplitRcvMrch，
+请求体为{"characterSet": "UTF-8", "appId": "A00003019", "signType": "PUB_SIGN", "hmac": "W2LuROTV0HzzIg96zYObd81/pnmmpKjAFzlGeP3/aflznIWeYF/6TJoxl3s4lscSyh+3ciO0hVyfdxao1VzQqHItY8vL3ayYUFdpVX94xhVH8n/QExVPoDljGUw9vyOBX8vug8iXh56PboI5y/zg6aCqAuhkH4q85qlKQoRGI2E=", "randomData": "sdsaid002", "timestamp": "20220905170923", "version": "1.0.0", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaId": "20220002", "paymentMerchantCode": "809000011892870", "rcvMercInfos": [{"payeeMerchantCode": "809000011892864", "relationType": "STAFF", "customRelation": "eiusmod"}]}},
+请求头为：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '577', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '商户[809000011892864]开通分账中,不允许重复开通', 'pager': None, 'timestamp': '20220921091625'}
+[2022-09-21 09:16:26,187][connectionpool.py 1003][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-21 09:16:26,282][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openSplitSndMrch HTTP/1.1" 200 150
+[2022-09-21 09:16:26,285][test_api.py 44][INFO]:测试场景为：开通分账出款方，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openSplitSndMrch，
+请求体为{"randomData": "1234567890", "timestamp": "20211223201746", "characterSet": "UTF-8", "signType": "PUB_SIGN", "version": "1.0.0", "appId": "A00003019", "hmac": "RcQFf3FljNstEzKQFqlxG5hXwIr+eXUrhCAR8Dn35IwZlXv+J602gtIxXtqe3nt0n+uth6Tt+ony4aflbsQke5May8FEvrq33tmKeZVK3SUywynxMk9IrFMf79xYYkmMtJYMdNGf+TgYkMaM7MK+w2VwYaucMyugfmSTdewxKY4=", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaId": "20220002", "paymentMerchantCode": "809000011892870", "splitMode": "1", "splitType": "1", "splitWay": "1", "splitPercent": "0.3"}},
+请求头为：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '540', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '商户[809000011892870]开通分账中,不允许重复开通', 'pager': None, 'timestamp': '20220921091625'}
+[2022-09-21 09:22:26,896][connectionpool.py 1003][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-21 09:22:27,486][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openSplitSndMrch HTTP/1.1" 200 105
+[2022-09-21 09:22:27,487][test_api.py 44][INFO]:测试场景为：开通分账出款方，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openSplitSndMrch，
+请求体为{"randomData": "1234567890", "timestamp": "20211223201746", "characterSet": "UTF-8", "signType": "PUB_SIGN", "version": "1.0.0", "appId": "A00003019", "hmac": "RcQFf3FljNstEzKQFqlxG5hXwIr+eXUrhCAR8Dn35IwZlXv+J602gtIxXtqe3nt0n+uth6Tt+ony4aflbsQke5May8FEvrq33tmKeZVK3SUywynxMk9IrFMf79xYYkmMtJYMdNGf+TgYkMaM7MK+w2VwYaucMyugfmSTdewxKY4=", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaId": "20220002", "paymentMerchantCode": "809000011892870", "splitMode": "1", "splitType": "1", "splitWay": "1", "splitPercent": "0.3"}},
+请求头为：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '540', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '开通申请中', 'pager': None, 'timestamp': '20220921092226'}
+[2022-09-21 09:23:00,670][connectionpool.py 1003][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-09-21 09:23:01,227][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/addSplitRcvMrch HTTP/1.1" 200 111
+[2022-09-21 09:23:01,229][test_api.py 44][INFO]:测试场景为：创建分账收款方信息，
+请求的url为：https://hldopenapi-app-uat.3vast.net/openapi-mms/split/addSplitRcvMrch，
+请求体为{"characterSet": "UTF-8", "appId": "A00003019", "signType": "PUB_SIGN", "hmac": "W2LuROTV0HzzIg96zYObd81/pnmmpKjAFzlGeP3/aflznIWeYF/6TJoxl3s4lscSyh+3ciO0hVyfdxao1VzQqHItY8vL3ayYUFdpVX94xhVH8n/QExVPoDljGUw9vyOBX8vug8iXh56PboI5y/zg6aCqAuhkH4q85qlKQoRGI2E=", "randomData": "sdsaid002", "timestamp": "20220905170923", "version": "1.0.0", "reqData": {"platformType": "0", "platformCode": "A00000901", "bizAreaId": "20220002", "paymentMerchantCode": "809000011892870", "rcvMercInfos": [{"payeeMerchantCode": "809000011892864", "relationType": "STAFF", "customRelation": "eiusmod"}]}},
+请求头为：{'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '577', 'Content-Type': 'application/json'}
+接口响应报文为：{'code': '001000', 'data': None, 'hmac': '', 'msg': '信息同步申请中', 'pager': None, 'timestamp': '20220921092300'}
