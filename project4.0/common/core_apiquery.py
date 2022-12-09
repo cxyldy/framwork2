@@ -3,12 +3,12 @@ import json
 import requests
 
 from utils.log_util import logger
-from utils.read_config import host_url
+from utils.read_config import url
 
 
 class CoreMethod:
     def __init__(self):
-        self.api_root_url = host_url
+        self.api_root_url = url
 
     def get(self, url, **kwargs):
         # return requests.get(self.api_root_url + url, **kwargs)
@@ -35,10 +35,10 @@ class CoreMethod:
         logger.info(f"接口请求地址>>>{self.api_root_url + url}")
         logger.info(f"接口请求方法{method}")
         if data is not None:
-            logger.info(f"接口请求data参数\n{json.dumps(data, indent=2)}")
+            logger.info(f"接口请求data参数\n{json.dumps(data,ensure_ascii=False,indent=2)}")
         if json is not None:
-            logger.info(f"接口请求参数\n{json.dumps(json_data, indent=2)}")
+            logger.info(f"接口请求方法\n{json.dumps(json_data,ensure_ascii=False,indent=2)}")
         if params is not None:
-            logger.info(f"接口请求参数\n{json.dumps(params, indent=2)}")
+            logger.info(f"接口请求参数\n{json.dumps(params,ensure_ascii=False,indent=2)}")
         if headers is not None:
-            logger.info(f"接口请求参数\n{json.dumps(headers, indent=2)}")
+            logger.info(f"接口请求头\n{json.dumps(headers,ensure_ascii=False,indent=2)}")

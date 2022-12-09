@@ -8,7 +8,7 @@ from common import medium_api
 from common.medium_api import MediumQueryMethod
 from utils.encrypt_method import get_rsa_sign
 # from utils.read_config import reconfig
-from utils.read_config import host_url, excel_path, fanhui_parm_list
+from utils.read_config import url, excel_path, fanhui_parm_list, key, timestamp
 from utils.read_excel import get_casedata
 from utils.log_util import logger
 from utils.write_resopnse import Write_response
@@ -21,7 +21,7 @@ class TestCase():
     # @allure.step("测试步骤一")
 
     def skip_case(self,case):
-        if case[12] == 'N':
+        if case[10] == 'N':
             pytest.skip()
     def test_common(self, case):
         # 判断excel文件中use_flag为N则跳过用例执行
@@ -33,16 +33,17 @@ class TestCase():
         headers = eval(case[3])
         method=case[4]
         method_type=case[5]
-        jsonpaths=case[6]
-        dependency=case[7]
-        key = case[10]
+        # 读取配置文件模块可自动生成当前时间戳，替换文件body中的时间戳
+        body['timestamp']=f"{timestamp}"
+        # body = body.replace('\r', '').replace('\n', '').replace('\t', '').replace('null','None') if body is not None else ""
         # 调用加密方法获取加密密钥
-        get_hmac = get_rsa_sign(body, key)
-        # 将获取的加密密钥更新至body中的hmac中
-        body["hmac"] = get_hmac
-        # print(key)
-        # 把返回的数据先保存进fanhui_parm_type列表
-        logger.info("用例数据拆包开始。。。。")
+        get_sign = get_rsa_sign(body,key)
+        # 将生成的签名放到请求头的sian字段中
+        headers['sign']=f"{get_sign}"
+
+        # openapi签名 将获取的加密密钥更新至body中的hmac中
+        # body["hmac"] = get_hmac
+        logger.info("开始逐个发起请求")
         # 调用中间request方法发起请求
         res = medium_api.MediumQueryMethod().request(url, method,method_type, body,headers)
         # 响应结果

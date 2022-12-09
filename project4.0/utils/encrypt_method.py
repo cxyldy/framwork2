@@ -24,7 +24,9 @@ def get_rsa_sign(content,key):
         # jarpath = os.path.join(os.path.dirname(os.path.realpath(__file__)), "signaf.jar")
         jpype.startJVM(jvmPath, "-ea", "-Djava.class.path=%s" %jar_path)
     # 指定main class
-    JDClass = jpype.JClass("hld.common.tools.HztSignUtils")
+    # JDClass = jpype.JClass("hld.common.tools.HztSignUtils")     open
+    JDClass = jpype.JClass("Sign")
+
     # 创建类实例对象
     jd = JDClass()
     # 引用jar包类中的方法 rsa_sign

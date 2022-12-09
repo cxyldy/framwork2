@@ -1,0 +1,156 @@
+[2022-12-09 09:30:43,157][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-12-09 09:30:43,157][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-09 09:30:43,157][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-12-09 09:30:43,158][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-12-09 09:30:43,158][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-12-09 09:30:43,161][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-12-09 09:30:43,164][connectionpool.py 1001][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-12-09 09:30:43,265][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 404 113
+[2022-12-09 09:30:43,266][test_api.py 48][INFO]:请求结果：{'timestamp': 1670549442633, 'status': 404, 'error': 'Not Found', 'message': '', 'path': '/openapi-mms/split/openBizArea'}
+[2022-12-09 09:46:15,887][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-12-09 09:46:15,887][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-09 09:46:15,887][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-12-09 09:46:15,887][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-12-09 09:46:15,887][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-12-09 09:46:15,887][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-12-09 09:46:15,890][connectionpool.py 1001][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-12-09 09:46:15,983][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 404 113
+[2022-12-09 09:46:15,984][test_api.py 48][INFO]:请求结果：{'timestamp': 1670550375341, 'status': 404, 'error': 'Not Found', 'message': '', 'path': '/openapi-mms/split/openBizArea'}
+[2022-12-09 11:33:45,167][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-12-09 11:33:45,168][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-09 11:33:45,168][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-12-09 11:33:45,168][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-12-09 11:33:45,168][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-12-09 11:33:45,168][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-12-09 11:33:45,171][connectionpool.py 1001][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-12-09 11:33:45,275][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 404 113
+[2022-12-09 11:33:45,280][test_api.py 48][INFO]:请求结果：{'timestamp': 1670556824563, 'status': 404, 'error': 'Not Found', 'message': '', 'path': '/openapi-mms/split/openBizArea'}
+[2022-12-09 11:34:48,895][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-12-09 11:34:48,895][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-09 11:34:48,895][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-12-09 11:34:48,895][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-12-09 11:34:48,895][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-12-09 11:34:48,895][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-12-09 11:34:48,899][connectionpool.py 1001][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-12-09 11:34:48,991][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 404 113
+[2022-12-09 11:34:48,993][test_api.py 48][INFO]:请求结果：{'timestamp': 1670556888280, 'status': 404, 'error': 'Not Found', 'message': '', 'path': '/openapi-mms/split/openBizArea'}
+[2022-12-09 11:35:25,694][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-12-09 11:35:25,695][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-09 11:35:25,695][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-12-09 11:35:25,695][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-12-09 11:35:25,695][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-12-09 11:35:25,695][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-12-09 11:35:25,711][connectionpool.py 1001][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-12-09 11:35:25,789][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 404 113
+[2022-12-09 11:35:25,790][test_api.py 48][INFO]:请求结果：{'timestamp': 1670556925077, 'status': 404, 'error': 'Not Found', 'message': '', 'path': '/openapi-mms/split/openBizArea'}
+[2022-12-09 11:35:45,806][test_api.py 43][INFO]:用例数据拆包开始。。。。
+[2022-12-09 11:35:45,806][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-09 11:35:45,806][core_apiquery.py 35][INFO]:接口请求地址>>>https://hldopenapi-app-uat.3vast.net/openapi-mms/split/openBizArea
+[2022-12-09 11:35:45,806][core_apiquery.py 36][INFO]:接口请求方法post
+[2022-12-09 11:35:45,807][core_apiquery.py 40][INFO]:接口请求参数
+{
+  "randomData": "1234567890",
+  "timestamp": "20211223201746",
+  "characterSet": "UTF-8",
+  "signType": "PUB_SIGN",
+  "version": "1.0.0",
+  "appId": "A00003019",
+  "hmac": "",
+  "reqData": {
+    "platformType": "0",
+    "platformCode": "A00000901",
+    "bizAreaName": "\u63a5\u53e3\u81ea\u52a8\u521b\u5efa\u5546\u57081"
+  }
+}
+[2022-12-09 11:35:45,807][core_apiquery.py 44][INFO]:接口请求参数
+{
+  "Content-Type": "application/json"
+}
+[2022-12-09 11:35:45,810][connectionpool.py 1001][DEBUG]:Starting new HTTPS connection (1): hldopenapi-app-uat.3vast.net:443
+[2022-12-09 11:35:45,893][connectionpool.py 456][DEBUG]:https://hldopenapi-app-uat.3vast.net:443 "POST /openapi-mms/split/openBizArea HTTP/1.1" 404 113
+[2022-12-09 11:35:45,894][test_api.py 48][INFO]:请求结果：{'timestamp': 1670556945181, 'status': 404, 'error': 'Not Found', 'message': '', 'path': '/openapi-mms/split/openBizArea'}
