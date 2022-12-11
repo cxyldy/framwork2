@@ -1,0 +1,39 @@
+INFO     root:test_api.py:75 **********发起请求************
+INFO     root:medium_api.py:12 执行统一请求方法开始。。。。。。。。。。。。。
+INFO     root:core_apiquery.py:37 接口请求地址>>>https://hldapi-testapp.3vast.cn/hldzt-pay-equip/factory/updateEquipFirm
+INFO     root:core_apiquery.py:38 接口请求方法post
+INFO     root:core_apiquery.py:43 接口请求参数
+{
+  "timestamp": "20221211211216",
+  "appVersion": "1.4.0",
+  "clientType": "WEB",
+  "platFormCode": "01",
+  "apiVersion": "1.0",
+  "bizContent": {
+    "appVersion": "1.4.0",
+    "firmCode": "C4",
+    "initiatorLoginName": "chanyan00",
+    "initiatorPlatFormCode": "01",
+    "pageSize": 20,
+    "remark": "刘测试新增新国都厂商经营分类为全部撒旦撒旦",
+    "initiatorUserId": "1522797290254307329",
+    "clientType": "WEB",
+    "manageScenes": [
+      4,
+      5
+    ],
+    "firmName": "刘测试修改经营分类为空",
+    "currentPage": 1,
+    "firmAddress": "刘测试新增新国都厂商经营分类为全部萨达",
+    "platformCode": "1111"
+  }
+}
+INFO     root:core_apiquery.py:47 接口请求头
+{
+  "Content-Type": "application/json",
+  "isBizCount": "true",
+  "sign": "0045FA5A4CC7CC5239E03BE435AA23D7"
+}
+DEBUG    urllib3.connectionpool:connectionpool.py:1007 Starting new HTTPS connection (1): hldapi-testapp.3vast.cn:443
+DEBUG    urllib3.connectionpool:connectionpool.py:465 https://hldapi-testapp.3vast.cn:443 "POST /hldzt-pay-equip/factory/updateEquipFirm HTTP/1.1" 200 92
+INFO     root:test_api.py:81 请求结果：{'code': '000000', 'data': None, 'msg': '操作成功', 'pager': None, 'timestamp': '20221211211216'}

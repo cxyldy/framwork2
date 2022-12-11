@@ -1,0 +1,255 @@
+[2022-12-11 17:56:18,651][convert_data.py 29][INFO]:找出存在可变变量区间块。。。。
+[2022-12-11 17:58:09,534][convert_data.py 32][INFO]:找出存在可变变量区间块。。。。
+[2022-12-11 18:01:10,817][convert_data.py 32][INFO]:找出存在可变变量区间块。。。。
+[2022-12-11 18:02:32,741][convert_data.py 32][INFO]:找出存在可变变量区间块。。。。
+[2022-12-11 18:02:32,741][convert_data.py 39][INFO]:分割字符串。。。。
+[2022-12-11 18:04:23,857][convert_data.py 32][INFO]:找出存在可变变量区间块。。。。
+[2022-12-11 18:04:23,857][convert_data.py 39][INFO]:分割字符串。。。。
+[2022-12-11 18:51:56,596][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 18:51:56,597][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 18:54:33,258][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 18:54:33,258][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 18:59:20,505][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 18:59:20,506][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 19:45:22,121][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 19:45:22,121][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 19:46:02,369][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 19:46:02,369][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 19:53:12,173][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 19:53:12,173][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 19:54:00,788][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 19:54:00,789][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 19:54:01,081][test_api.py 81][INFO]:开始逐个发起请求
+[2022-12-11 19:54:01,081][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 19:54:01,081][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn  /hldzt-pay-equip/factory   /updateEquipFirm
+[2022-12-11 19:54:01,081][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 19:54:01,081][core_apiquery.py 43][INFO]:接口请求方法
+"{    \"timestamp\": \"202212091051\",    \"appVersion\": \"1.4.0\",        \"clientType\": \"WEB\",        \"platFormCode\": \"01\",        \"apiVersion\": \"1.0\",        \"bizContent\":{ \"appVersion\": \"1.4.0\", \"firmCode\": \"C4\", \"initiatorLoginName\": \"chanyan00\", \"initiatorPlatFormCode\": \"01\", \"pageSize\": 20, \"remark\": \"刘测试新增新国都厂商经营分类为全部撒旦撒旦\", \"initiatorUserId\": \"1522797290254307329\", \"clientType\": \"WEB\", \"manageScenes\": [4,5], \"firmName\": \"刘测试修改经营分类为空\", \"currentPage\": 1, \"firmAddress\": \"刘测试新增新国都厂商经营分类为全部萨达\", \"platformCode\": \"1111\"}}"
+[2022-12-11 19:54:01,081][core_apiquery.py 47][INFO]:接口请求头
+"{\n \"Content-Type\": \"application/json\",\n \"isBizCount\": \"true\",\n \"sign\": \"111\"\n}\n"
+[2022-12-11 20:22:47,610][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:22:47,610][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:22:47,936][test_api.py 77][INFO]:**********发起请求************
+[2022-12-11 20:22:47,936][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 20:22:47,936][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn  /hldzt-pay-equip/factory   /updateEquipFirm
+[2022-12-11 20:22:47,937][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 20:22:47,937][core_apiquery.py 43][INFO]:接口请求方法
+"{    \"timestamp\": \"202212091051\",    \"appVersion\": \"1.4.0\",        \"clientType\": \"WEB\",        \"platFormCode\": \"01\",        \"apiVersion\": \"1.0\",        \"bizContent\":{ \"appVersion\": \"1.4.0\", \"firmCode\": \"C4\", \"initiatorLoginName\": \"chanyan00\", \"initiatorPlatFormCode\": \"01\", \"pageSize\": 20, \"remark\": \"刘测试新增新国都厂商经营分类为全部撒旦撒旦\", \"initiatorUserId\": \"1522797290254307329\", \"clientType\": \"WEB\", \"manageScenes\": [4,5], \"firmName\": \"刘测试修改经营分类为空\", \"currentPage\": 1, \"firmAddress\": \"刘测试新增新国都厂商经营分类为全部萨达\", \"platformCode\": \"1111\"}}"
+[2022-12-11 20:22:47,937][core_apiquery.py 47][INFO]:接口请求头
+"{\n \"Content-Type\": \"application/json\",\n \"isBizCount\": \"true\",\n \"sign\": \"111\"\n}\n"
+[2022-12-11 20:26:24,634][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:26:24,634][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:28:21,489][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:28:21,489][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:29:29,363][test_api.py 76][INFO]:**********发起请求************
+[2022-12-11 20:29:41,542][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 20:29:41,543][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn  /hldzt-pay-equip/factory   /updateEquipFirm
+[2022-12-11 20:29:41,544][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 20:29:41,544][core_apiquery.py 43][INFO]:接口请求方法
+"{    \"timestamp\": \"202212091051\",    \"appVersion\": \"1.4.0\",        \"clientType\": \"WEB\",        \"platFormCode\": \"01\",        \"apiVersion\": \"1.0\",        \"bizContent\":{ \"appVersion\": \"1.4.0\", \"firmCode\": \"C4\", \"initiatorLoginName\": \"chanyan00\", \"initiatorPlatFormCode\": \"01\", \"pageSize\": 20, \"remark\": \"刘测试新增新国都厂商经营分类为全部撒旦撒旦\", \"initiatorUserId\": \"1522797290254307329\", \"clientType\": \"WEB\", \"manageScenes\": [4,5], \"firmName\": \"刘测试修改经营分类为空\", \"currentPage\": 1, \"firmAddress\": \"刘测试新增新国都厂商经营分类为全部萨达\", \"platformCode\": \"1111\"}}"
+[2022-12-11 20:29:41,544][core_apiquery.py 47][INFO]:接口请求头
+{
+  "Content-Type": "application/json",
+  "isBizCount": "true",
+  "sign": "55D7DAEBFD3330E9D51D2886761DFD9F"
+}
+[2022-12-11 20:29:41,548][connectionpool.py 1007][DEBUG]:Starting new HTTPS connection (1): hldapi-testapp.3vast.cn%20%20:443
+[2022-12-11 20:30:58,888][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:30:58,888][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:30:59,143][test_api.py 76][INFO]:**********发起请求************
+[2022-12-11 20:30:59,143][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 20:30:59,143][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn  /hldzt-pay-equip/factory   /updateEquipFirm
+[2022-12-11 20:30:59,143][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 20:30:59,143][core_apiquery.py 43][INFO]:接口请求方法
+"{    \"timestamp\": \"202212091051\",    \"appVersion\": \"1.4.0\",        \"clientType\": \"WEB\",        \"platFormCode\": \"01\",        \"apiVersion\": \"1.0\",        \"bizContent\":{ \"appVersion\": \"1.4.0\", \"firmCode\": \"C4\", \"initiatorLoginName\": \"chanyan00\", \"initiatorPlatFormCode\": \"01\", \"pageSize\": 20, \"remark\": \"刘测试新增新国都厂商经营分类为全部撒旦撒旦\", \"initiatorUserId\": \"1522797290254307329\", \"clientType\": \"WEB\", \"manageScenes\": [4,5], \"firmName\": \"刘测试修改经营分类为空\", \"currentPage\": 1, \"firmAddress\": \"刘测试新增新国都厂商经营分类为全部萨达\", \"platformCode\": \"1111\"}}"
+[2022-12-11 20:30:59,143][core_apiquery.py 47][INFO]:接口请求头
+{
+  "Content-Type": "application/json",
+  "isBizCount": "true",
+  "sign": "7B6869023E5B5A5955E5E88D1D4F2E84"
+}
+[2022-12-11 20:30:59,190][connectionpool.py 1007][DEBUG]:Starting new HTTPS connection (1): hldapi-testapp.3vast.cn%20%20:443
+[2022-12-11 20:36:17,976][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:36:17,976][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:36:18,301][test_api.py 76][INFO]:**********发起请求************
+[2022-12-11 20:36:18,302][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 20:36:18,302][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn/hldzt-pay-equip/factory/updateEquipFirm
+[2022-12-11 20:36:18,302][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 20:36:18,302][core_apiquery.py 43][INFO]:接口请求方法
+"{    \"timestamp\": \"202212091051\",    \"appVersion\": \"1.4.0\",        \"clientType\": \"WEB\",        \"platFormCode\": \"01\",        \"apiVersion\": \"1.0\",        \"bizContent\":{ \"appVersion\": \"1.4.0\", \"firmCode\": \"C4\", \"initiatorLoginName\": \"chanyan00\", \"initiatorPlatFormCode\": \"01\", \"pageSize\": 20, \"remark\": \"刘测试新增新国都厂商经营分类为全部撒旦撒旦\", \"initiatorUserId\": \"1522797290254307329\", \"clientType\": \"WEB\", \"manageScenes\": [4,5], \"firmName\": \"刘测试修改经营分类为空\", \"currentPage\": 1, \"firmAddress\": \"刘测试新增新国都厂商经营分类为全部萨达\", \"platformCode\": \"1111\"}}"
+[2022-12-11 20:36:18,302][core_apiquery.py 47][INFO]:接口请求头
+{
+  "Content-Type": "application/json",
+  "isBizCount": "true",
+  "sign": "8FE935B05EF4229D28695869E10C8EBC"
+}
+[2022-12-11 20:36:18,354][connectionpool.py 1007][DEBUG]:Starting new HTTPS connection (1): hldapi-testapp.3vast.cn:443
+[2022-12-11 20:36:18,542][connectionpool.py 465][DEBUG]:https://hldapi-testapp.3vast.cn:443 "POST /hldzt-pay-equip/factory/updateEquipFirm HTTP/1.1" 400 99
+[2022-12-11 20:36:18,545][test_api.py 81][INFO]:请求结果：{'msg': '网关系统异常,请稍后重试', 'data': '', 'code': '999999', 'timestamp': '20221211203617'}
+[2022-12-11 20:45:05,709][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:45:05,709][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:45:05,958][test_api.py 76][INFO]:**********发起请求************
+[2022-12-11 20:45:05,959][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 20:45:05,959][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn/hldzt-pay-equip/factory/updateEquipFirm
+[2022-12-11 20:45:05,959][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 20:45:05,959][core_apiquery.py 43][INFO]:接口请求参数
+{
+  "timestamp": "202212091051",
+  "appVersion": "1.4.0",
+  "clientType": "WEB",
+  "platFormCode": "01",
+  "apiVersion": "1.0",
+  "bizContent": {
+    "appVersion": "1.4.0",
+    "firmCode": "C4",
+    "initiatorLoginName": "chanyan00",
+    "initiatorPlatFormCode": "01",
+    "pageSize": 20,
+    "remark": "刘测试新增新国都厂商经营分类为全部撒旦撒旦",
+    "initiatorUserId": "1522797290254307329",
+    "clientType": "WEB",
+    "manageScenes": [
+      4,
+      5
+    ],
+    "firmName": "刘测试修改经营分类为空",
+    "currentPage": 1,
+    "firmAddress": "刘测试新增新国都厂商经营分类为全部萨达",
+    "platformCode": "1111"
+  }
+}
+[2022-12-11 20:45:05,959][core_apiquery.py 47][INFO]:接口请求头
+{
+  "Content-Type": "application/json",
+  "isBizCount": "true",
+  "sign": "1D1D8B42EBEF40CA4DED02262702CB50"
+}
+[2022-12-11 20:45:06,017][connectionpool.py 1007][DEBUG]:Starting new HTTPS connection (1): hldapi-testapp.3vast.cn:443
+[2022-12-11 20:45:06,088][connectionpool.py 465][DEBUG]:https://hldapi-testapp.3vast.cn:443 "POST /hldzt-pay-equip/factory/updateEquipFirm HTTP/1.1" 200 103
+[2022-12-11 20:45:06,090][test_api.py 81][INFO]:请求结果：{'code': '801004', 'msg': '中台请求报文签名验签失败', 'timestamp': '20221211204504', 'data': None}
+[2022-12-11 20:48:15,003][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:48:15,003][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:48:15,258][test_api.py 76][INFO]:**********发起请求************
+[2022-12-11 20:48:15,258][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 20:48:15,258][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn/hldzt-pay-equip/factory/updateEquipFirm
+[2022-12-11 20:48:15,258][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 20:48:15,258][core_apiquery.py 43][INFO]:接口请求参数
+{
+  "timestamp": "20221211204814",
+  "appVersion": "1.4.0",
+  "clientType": "WEB",
+  "platFormCode": "01",
+  "apiVersion": "1.0",
+  "bizContent": {
+    "appVersion": "1.4.0",
+    "firmCode": "C4",
+    "initiatorLoginName": "chanyan00",
+    "initiatorPlatFormCode": "01",
+    "pageSize": 20,
+    "remark": "刘测试新增新国都厂商经营分类为全部撒旦撒旦",
+    "initiatorUserId": "1522797290254307329",
+    "clientType": "WEB",
+    "manageScenes": [
+      4,
+      5
+    ],
+    "firmName": "刘测试修改经营分类为空",
+    "currentPage": 1,
+    "firmAddress": "刘测试新增新国都厂商经营分类为全部萨达",
+    "platformCode": "1111"
+  }
+}
+[2022-12-11 20:48:15,258][core_apiquery.py 47][INFO]:接口请求头
+{
+  "Content-Type": "application/json",
+  "isBizCount": "true",
+  "sign": "828BD5548841D1B8858C5F24B15C7D1E"
+}
+[2022-12-11 20:48:15,312][connectionpool.py 1007][DEBUG]:Starting new HTTPS connection (1): hldapi-testapp.3vast.cn:443
+[2022-12-11 20:48:15,421][connectionpool.py 465][DEBUG]:https://hldapi-testapp.3vast.cn:443 "POST /hldzt-pay-equip/factory/updateEquipFirm HTTP/1.1" 200 92
+[2022-12-11 20:48:15,423][test_api.py 81][INFO]:请求结果：{'code': '000000', 'data': None, 'msg': '操作成功', 'pager': None, 'timestamp': '20221211204814'}
+[2022-12-11 20:53:22,636][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:53:22,636][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:53:22,904][test_api.py 76][INFO]:**********发起请求************
+[2022-12-11 20:56:16,991][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 20:56:16,992][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 20:56:17,234][test_api.py 76][INFO]:**********发起请求************
+[2022-12-11 20:56:17,234][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 20:56:17,234][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn/hldzt-pay-equip/factory/updateEquipFirm
+[2022-12-11 20:56:17,234][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 20:56:17,235][core_apiquery.py 43][INFO]:接口请求参数
+{
+  "timestamp": "20221211205616",
+  "appVersion": "1.4.0",
+  "clientType": "WEB",
+  "platFormCode": "01",
+  "apiVersion": "1.0",
+  "bizContent": {
+    "appVersion": "1.4.0",
+    "firmCode": "C4",
+    "initiatorLoginName": "chanyan00",
+    "initiatorPlatFormCode": "01",
+    "pageSize": 20,
+    "remark": "刘测试新增新国都厂商经营分类为全部撒旦撒旦",
+    "initiatorUserId": "1522797290254307329",
+    "clientType": "WEB",
+    "manageScenes": [
+      4,
+      5
+    ],
+    "firmName": "刘测试修改经营分类为空",
+    "currentPage": 1,
+    "firmAddress": "刘测试新增新国都厂商经营分类为全部萨达",
+    "platformCode": "1111"
+  }
+}
+[2022-12-11 20:56:17,235][core_apiquery.py 47][INFO]:接口请求头
+{
+  "Content-Type": "application/json",
+  "isBizCount": "true",
+  "sign": "A929D7B99297CC879C4F9FD9591FA347"
+}
+[2022-12-11 20:56:17,288][connectionpool.py 1007][DEBUG]:Starting new HTTPS connection (1): hldapi-testapp.3vast.cn:443
+[2022-12-11 20:56:17,394][connectionpool.py 465][DEBUG]:https://hldapi-testapp.3vast.cn:443 "POST /hldzt-pay-equip/factory/updateEquipFirm HTTP/1.1" 200 92
+[2022-12-11 20:56:17,395][test_api.py 81][INFO]:请求结果：{'code': '000000', 'data': None, 'msg': '操作成功', 'pager': None, 'timestamp': '20221211205616'}
+[2022-12-11 21:02:15,817][read_excel.py 19][INFO]:打开测试用例文件成功！
+[2022-12-11 21:02:15,817][read_excel.py 31][INFO]:读取测试用例完毕
+[2022-12-11 21:02:16,083][test_api.py 75][INFO]:**********发起请求************
+[2022-12-11 21:02:16,084][medium_api.py 12][INFO]:执行统一请求方法开始。。。。。。。。。。。。。
+[2022-12-11 21:02:16,084][core_apiquery.py 37][INFO]:接口请求地址>>>https://hldapi-testapp.3vast.cn/hldzt-pay-equip/factory/updateEquipFirm
+[2022-12-11 21:02:16,084][core_apiquery.py 38][INFO]:接口请求方法post
+[2022-12-11 21:02:16,084][core_apiquery.py 43][INFO]:接口请求参数
+{
+  "timestamp": "20221211210215",
+  "appVersion": "1.4.0",
+  "clientType": "WEB",
+  "platFormCode": "01",
+  "apiVersion": "1.0",
+  "bizContent": {
+    "appVersion": "1.4.0",
+    "firmCode": "C4",
+    "initiatorLoginName": "chanyan00",
+    "initiatorPlatFormCode": "01",
+    "pageSize": 20,
+    "remark": "刘测试新增新国都厂商经营分类为全部撒旦撒旦",
+    "initiatorUserId": "1522797290254307329",
+    "clientType": "WEB",
+    "manageScenes": [
+      4,
+      5
+    ],
+    "firmName": "刘测试修改经营分类为空",
+    "currentPage": 1,
+    "firmAddress": "刘测试新增新国都厂商经营分类为全部萨达",
+    "platformCode": "1111"
+  }
+}
+[2022-12-11 21:02:16,084][core_apiquery.py 47][INFO]:接口请求头
+{
+  "Content-Type": "application/json",
+  "isBizCount": "true",
+  "sign": "6758F9A67D69E3841268DBFB0FBA6BB2"
+}
+[2022-12-11 21:02:16,137][connectionpool.py 1007][DEBUG]:Starting new HTTPS connection (1): hldapi-testapp.3vast.cn:443
+[2022-12-11 21:02:16,234][connectionpool.py 465][DEBUG]:https://hldapi-testapp.3vast.cn:443 "POST /hldzt-pay-equip/factory/updateEquipFirm HTTP/1.1" 200 92
+[2022-12-11 21:02:16,236][test_api.py 80][INFO]:请求结果：{'code': '000000', 'data': None, 'msg': '操作成功', 'pager': None, 'timestamp': '20221211210215'}

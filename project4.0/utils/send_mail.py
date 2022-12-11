@@ -4,12 +4,14 @@ import schedule as schedule
 import yagmail
 
 from utils.log_util import logger
-from utils.read_config import  to_email, user_name
+from utils.read_config import to_email, user_name, host_email
+
+
 def do_job():
     try:
         username = user_name # 发送者账号
         # passwd = '授权码'  # 发送者授权码，如果不需要授权码就写成密码,此处不建议直接写到代码当中
-        email = yagmail.SMTP(user=username, host='smtp.163.com')
+        email = yagmail.SMTP(user=username, host=host_email)
         email.send(
             to=eval(to_email), # 收件人邮箱，如果多个收件人的话，写成list就行了
             subject='接口自动化测试结果',  # 邮件标题

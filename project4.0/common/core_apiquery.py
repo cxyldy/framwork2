@@ -1,3 +1,5 @@
+
+
 import json
 
 import requests
@@ -36,8 +38,9 @@ class CoreMethod:
         logger.info(f"接口请求方法{method}")
         if data is not None:
             logger.info(f"接口请求data参数\n{json.dumps(data,ensure_ascii=False,indent=2)}")
+            #  json.dumps 默认使用编码是ASCII，不包含中文，出现了乱码，加ensure_ascii=False，不会使用默认的ASCII编码，这样会正常显示中文
         if json is not None:
-            logger.info(f"接口请求方法\n{json.dumps(json_data,ensure_ascii=False,indent=2)}")
+            logger.info(f"接口请求参数\n{json.dumps(json_data,ensure_ascii=False,indent=2)}")
         if params is not None:
             logger.info(f"接口请求参数\n{json.dumps(params,ensure_ascii=False,indent=2)}")
         if headers is not None:
